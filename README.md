@@ -27,4 +27,4 @@ for example on serverless-offline:
 
 ```http://localhost:3000/ccfy?q=aesthetic```
 ## Acknowledgements
-made with dankness with made with love with [memefy](https://github.com/Kaioru/memefy.js) and [serverless](https://github.com/serverless/serverless)
+made with dankness with [memefy](https://github.com/Kaioru/memefy.js) and [serverless](https://github.com/serverless/serverless)
