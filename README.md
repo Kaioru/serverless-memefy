@@ -23,7 +23,7 @@ run it offline or however you want to deploy it
 
 ```gulp serve```
 ### Step 4
-send POST requests to your the endpoints!!
+send POST requests to the endpoints!!
 
 for example on serverless-offline:
 
