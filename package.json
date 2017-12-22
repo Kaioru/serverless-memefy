@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "memefy, now as a serverless api!",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node util/generate.js"
   },
   "author": "Kaioru <keith@kaioru.co>",
   "license": "MIT",
@@ -12,6 +12,8 @@
     "serverless-plugin-include-dependencies": "^3.0.0"
   },
   "dependencies": {
-    "memefy": "^1.2.0"
+    "js-yaml": "^3.10.0",
+    "memefy": "^1.2.0",
+    "yamljs": "^0.3.0"
   }
 }

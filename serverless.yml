@@ -1,89 +1,77 @@
-# Welcome to serverless. Read the docs
-# https://serverless.com/framework/docs/
-
-# Serverless.yml is the configuration the CLI
-# uses to deploy your code to your provider of choice
-
-# The `service` block is the name of the service
-service:          serverless-memefy
-
-# The `provider` block defines where your service will be deployed
+service: serverless-memefy
 provider:
-  name:           aws
-  runtime:        nodejs6.10
-
+  name: aws
+  runtime: nodejs6.10
 plugins:
   - serverless-offline
-
-# The `functions` block defines what code to deploy
 functions:
   ccfy:
-    handler:      lib/handler.ccfy
+    handler: lib/handler.ccfy
     events:
       - http:
-          path:   ccfy
+          path: ccfy
           method: post
-          cors:   true
+          cors: true
   spaceout:
-    handler:      lib/handler.spaceout
+    handler: lib/handler.spaceout
     events:
       - http:
-          path:   spaceout
+          path: spaceout
           method: post
-          cors:   true
+          cors: true
   spacierout:
-    handler:      lib/handler.spacierout
+    handler: lib/handler.spacierout
     events:
       - http:
-          path:   spacierout
+          path: spacierout
           method: post
-          cors:   true
+          cors: true
   escalate:
-    handler:      lib/handler.escalate
+    handler: lib/handler.escalate
     events:
       - http:
-          path:   escalate
+          path: escalate
           method: post
-          cors:   true
+          cors: true
   exaggerate:
-    handler:      lib/handler.exaggerate
+    handler: lib/handler.exaggerate
     events:
       - http:
-          path:   exaggerate
+          path: exaggerate
           method: post
-          cors:   true
+          cors: true
   leet:
-    handler:      lib/handler.leet
+    handler: lib/handler.leet
     events:
       - http:
-          path:   leet
+          path: leet
           method: post
-          cors:   true
+          cors: true
   hashtag:
-    handler:      lib/handler.hashtag
+    handler: lib/handler.hashtag
     events:
       - http:
-          path:   hashtag
+          path: hashtag
           method: post
-          cors:   true
+          cors: true
   alternating:
-    handler:      lib/handler.alternating
+    handler: lib/handler.alternating
     events:
       - http:
-          path:   alternating
+          path: alternating
           method: post
-          cors:   true
+          cors: true
   alternating2:
-    handler:      lib/handler.alternating2
+    handler: lib/handler.alternating2
     events:
       - http:
-          path:   alternating2
+          path: alternating2
           method: post
-          cors:   true
+          cors: true
   stoz:
-    handler:      lib/handler.stoz
+    handler: lib/handler.stoz
     events:
       - http:
-          path:   stoz
+          path: stoz
           method: post
-          cors:   true
+          cors: true
