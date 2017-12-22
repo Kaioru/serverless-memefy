@@ -2,18 +2,29 @@
   "name": "serverless-memefy",
   "version": "1.0.0",
   "description": "memefy, now as a serverless api!",
-  "scripts": {
-    "build": "node util/generate.js"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kaioru/serverless-memefy.git"
   },
   "author": "Kaioru <keith@kaioru.co>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaioru/serverless-memefy/issues"
+  },
+  "homepage": "https://github.com/Kaioru/serverless-memefy#readme",
   "devDependencies": {
-    "serverless-offline": "^3.16.0",
-    "serverless-plugin-include-dependencies": "^3.0.0"
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.7.1",
+    "gulp-template": "^4.0.0",
+    "js-yaml": "^3.10.0",
+    "load-gulp-tasks": "^0.1.0",
+    "serverless-gulp": "^1.0.10",
+    "serverless-offline": "^3.16.0"
   },
   "dependencies": {
-    "js-yaml": "^3.10.0",
-    "memefy": "^1.2.0",
-    "yamljs": "^0.3.0"
+    "gulp-data": "^1.2.1",
+    "memefy": "^1.2.0"
   }
 }

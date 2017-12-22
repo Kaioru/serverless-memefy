@@ -16,10 +16,12 @@ install serverless
 clone this repo
 
 ```git clone https://github.com/Kaioru/serverless-memefy```
+
+and remember to download the dependencies with ```npm install```
 ### Step 3
 run it offline or however you want to deploy it
 
-```sls offline start```
+```gulp serve```
 ### Step 4
 send POST requests to your the endpoints!!
 
