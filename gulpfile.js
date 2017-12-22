@@ -5,7 +5,7 @@ require('load-gulp-tasks')(gulp, {
   pattern: ['tasks/**/*.js']
 });
 
-gulp.task('start', ['default'], function() {
+gulp.task('serve', ['default'], function() {
   return run('sls offline start', {
     cwd: './dist',
     verbosity: 3,
