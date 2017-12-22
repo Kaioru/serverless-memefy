@@ -21,7 +21,6 @@
     "gulp-template": "^4.0.0",
     "js-yaml": "^3.10.0",
     "load-gulp-tasks": "^0.1.0",
-    "serverless-gulp": "^1.0.10",
     "serverless-offline": "^3.16.0"
   },
   "dependencies": {
